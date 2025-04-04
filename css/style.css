@@ -14,7 +14,6 @@ nav{
    text-align: right;
 }
 
-
 a {
    display: inline-flex;
    align-items: center;
@@ -35,7 +34,7 @@ a::before {
    margin-right: 0.625rem;
 }
 
-#button {
+.button {
    display: inline-block;
    background-color: #8C0335;
    padding: 1.125rem 1.25rem;
@@ -44,9 +43,10 @@ a::before {
    transition: transform 0.2s linear;
 } 
 
-#button:hover{
+.button:hover{
    background-color: #6e022a;
    cursor: pointer;
    text-decoration: underline solid #fff;
    transform: scale(1.03);
 }
+
