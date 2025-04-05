@@ -10,11 +10,20 @@
    margin-bottom: 5rem;
 }
 
-.main-section.-bgBlack {
+.main-section.-bgProject {
    background-color: #014040;
    height: 33rem;
 }
 
 .main-section.-bdFirst {
    border-color: #8C0335;
+}
+
+.main-section.-bgAbout {
+   background-color: #0F0126;
+   height: 49rem;
+}
+
+.main-section.-bdSecond {
+   border-color: #014040;
 }
