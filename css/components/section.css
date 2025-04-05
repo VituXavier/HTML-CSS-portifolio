@@ -10,3 +10,10 @@
    margin-bottom: 5rem;
 }
 
+.section.-bgBlack {
+   background-color: #014040;
+}
+
+.section.-bdFirst {
+   border-color: #8C0335;
+}
