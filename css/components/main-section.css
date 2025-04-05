@@ -1,4 +1,4 @@
-.section {
+.main-section {
    background-color:  #8C0335;
    padding-top: 3.2rem;
    padding-bottom: 6.25rem;
@@ -6,15 +6,15 @@
    height: 46rem;
 }
 
-.section .main-title {
+.main-section .main-title {
    margin-bottom: 5rem;
 }
 
-.section.-bgBlack {
+.main-section.-bgBlack {
    background-color: #014040;
    height: 33rem;
 }
 
-.section.-bdFirst {
+.main-section.-bdFirst {
    border-color: #8C0335;
 }
