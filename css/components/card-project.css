@@ -8,8 +8,13 @@
    box-shadow: 10px 10px 0 #FFF;
 }
 
-.card-project.-blue {
-   background-color: #4C5B84;
+.card-project.-gray {
+   background-color: #3A4042;
+}
+
+.card-project .logo.-youtube{
+   width: 15rem;
+   height: 14rem;
 }
 
 .card-project .logo.-icone {
