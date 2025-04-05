@@ -2,10 +2,14 @@
    width: 3.2rem;
    height: 3.2rem;
    background-color: #8C0335;
-   box-shadow: 5px 5px 0 #6e2c2c;
+   box-shadow: 5px 5px 0 #3b1818;
    cursor: pointer;
    border: none;
 }
+
+.button-arrow .content {
+   display: none;
+} 
 
 .button-arrow::before {
    content: " ";
@@ -15,4 +19,9 @@
    height: 1rem;
    border: 17px solid transparent;
    border-left: 28px solid #FFF;
+   transform: translateX(9px);
+}
+
+.button-arrow.-left::before {
+   transform: rotate(180deg) translateX(12px);
 }
