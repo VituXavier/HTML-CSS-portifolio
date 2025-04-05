@@ -1,4 +1,4 @@
-.button {
+.main-button {
    display: inline-block;
    background-color: #8C0335;
    color: #fff;
@@ -8,7 +8,7 @@
    transition: transform 0.2s linear;
 } 
 
-.button:hover{
+.main-button:hover{
    background-color: #6e022a;
    cursor: pointer;
    text-decoration: underline solid #fff;
