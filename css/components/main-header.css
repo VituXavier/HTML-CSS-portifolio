@@ -1,4 +1,6 @@
 .main-header {
+   position: fixed;
+   width: 98%;
    display: flex;
    justify-content: space-between ;
    background-color: #011F26;
