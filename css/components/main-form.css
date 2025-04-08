@@ -1,0 +1,12 @@
+.main-form {
+   background-color: #3A4042;
+   padding: 3.1rem 2.5rem;
+}
+
+.main-form .main-input {
+   margin-bottom: 1.25rem;
+}
+
+.main-form .main-input.-textarea {
+   margin-bottom: 2.5rem;
+}
