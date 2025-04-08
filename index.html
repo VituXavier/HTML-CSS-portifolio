@@ -8,29 +8,8 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap" rel="stylesheet">
 
-   <link rel="stylesheet" href="css/reset.css">
-   <link rel="stylesheet" href="css/components/main-header.css">
-   <link rel="stylesheet" href="css/components/main-banner.css">
-   <link rel="stylesheet" href="css/components/main-section.css">
-   <link rel="stylesheet" href="css/components/main-action.css">
-   <link rel="stylesheet" href="css/components/main-title.css">
-   <link rel="stylesheet" href="css/components/main-subtitle.css">
-   <link rel="stylesheet" href="css/components/main-box.css">
-   <link rel="stylesheet" href="css/components/main-button.css">
-   <link rel="stylesheet" href="css/components/wrapper-skill.css">
-   <link rel="stylesheet" href="css/components/skill-tec.css">
-   <link rel="stylesheet" href="css/components/progress-bar.css">
-   <link rel="stylesheet" href="css/components/wrapper-card.css">
-   <link rel="stylesheet" href="css/components/card-project.css">
-   <link rel="stylesheet" href="css/components/main-description.css">
-   <link rel="stylesheet" href="css/components/main-carousel.css">
-   <link rel="stylesheet" href="css/components/button-arrow.css">
-   <link rel="stylesheet" href="css/components/node-card.css">
-   <link rel="stylesheet" href="css/components/main-form.css">
-   <link rel="stylesheet" href="css/components/main-label.css">
-   <link rel="stylesheet" href="css/components/main-input.css">
-   <link rel="stylesheet" href="css/components/main-footer.css">
-   
+   <link rel="stylesheet" href="src/main.css">
+
    <title>Meu Portífolio</title>
 </head>
 
@@ -43,7 +22,7 @@
          <a class="main-action" href="#skills" lang="en">Skills</a>
          <a class="main-action" href="#projects">Projetos</a>
          <a class="main-action" href="#about">Sobre</a>
-         <a class="main-action" href="#">Contatos</a>
+         <a class="main-action" href="#contact">Contatos</a>
          <a class="main-button" lang="en">Download CV</a>
       </nav>
    </header>
@@ -56,7 +35,7 @@
          </div>
          <div class="navigation">
             <a class="main-button" lang="en">Download CV</a>
-            <a class="main-button">Contatos</a>
+            <a class="main-button" href="#contact">Contatos</a>
          </div>
       </div>
    </section>
@@ -214,7 +193,7 @@
 
    </section>
 
-   <form class="main-form" action="">
+   <form id="contact" class="main-form" action="">
       <legend class="main-title -second">Contatos</legend>
 
       <label class="main-label" for="name"> Nome</label>
@@ -224,7 +203,7 @@
       <input class="main-input" id="email" type="email" required />
 
       <label class="main-label" for="mensagem">Mensagem</label>
-      <textarea class="main-input -textarea" id="mensagem" ></textarea>
+      <textarea class="main-input -textarea" id="mensagem" required></textarea>
 
       <button class="main-button -full" type="submit">Enviar</button>
    </form>

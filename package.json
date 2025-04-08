@@ -1,0 +1,27 @@
+{
+  "name": "html-css-feliz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VituXavier/HTML-CSS-portifolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/VituXavier/HTML-CSS-portifolio/issues"
+  },
+  "homepage": "https://github.com/VituXavier/HTML-CSS-portifolio#readme",
+  "description": "",
+  "devDependencies": {
+    "vite": "^6.2.5"
+  }
+}
