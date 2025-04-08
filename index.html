@@ -26,6 +26,7 @@
    <link rel="stylesheet" href="css/components/main-carousel.css">
    <link rel="stylesheet" href="css/components/button-arrow.css">
    <link rel="stylesheet" href="css/components/node-card.css">
+   <link rel="stylesheet" href="css/components/main-label.css">
    <link rel="stylesheet" href="css/components/main-footer.css">
    
    <title>Meu Portífolio</title>
@@ -214,21 +215,17 @@
    <section class="main-section -bgContact">
       <h2 class="main-title -second">Contatos</h2>
       <form action="">
-         <div>
-            <label for="name"> Nome</label>
-            <input type="text" required />
-         </div>
-         <div>
-            <label for="email">Email</label>
-            <input type="email" required />
-         </div>
-         <div>
-            <label for="mensagem">Mensagem</label>
-            <textarea ></textarea>
-         </div>
-         <div>
-            <input class="main-button" type="submit" value="Enviar">
-         </div>
+            <label class="main-label" for="name"> Nome</label>
+            <input id="name" type="text" required /> 
+
+            <label class="main-label" for="email">Email</label>
+            <input id="email" type="email" required />
+
+            <label class="main-label" for="mensagem">Mensagem</label>
+            <textarea id="mensagem" ></textarea>
+
+            <button type="submit">Enviar</button>
+   
       </form>
    </section>
  
