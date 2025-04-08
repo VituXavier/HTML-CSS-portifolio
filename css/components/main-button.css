@@ -19,3 +19,7 @@
    width: 100%;
    border: none;
 }
+
+.main-button.-full:hover {
+   transform: scale(1.01);
+}
