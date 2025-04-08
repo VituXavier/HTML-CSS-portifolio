@@ -3,7 +3,8 @@
    padding-top: 3.2rem;
    padding-bottom: 6.25rem;
    border-bottom: 10px solid #000;
-   height: 46rem;
+
+
 }
 
 .main-section .main-title {
@@ -12,7 +13,7 @@
 
 .main-section.-bgProject {
    background-color: #014040;
-   height: 33rem;
+
 }
 
 .main-section.-bdFirst {
@@ -21,9 +22,14 @@
 
 .main-section.-bgAbout {
    background-color: #0F0126;
-   height: 49rem;
+
 }
 
 .main-section.-bdSecond {
    border-color: #014040;
+}
+
+.main-section.-bgContact {
+   background-color: #3A4042;
+
 }
