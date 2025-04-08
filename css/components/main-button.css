@@ -14,3 +14,8 @@
    text-decoration: underline solid #fff;
    transform: scale(1.03);
 }
+
+.main-button.-full {
+   width: 100%;
+   border: none;
+}
